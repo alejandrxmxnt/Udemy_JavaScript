@@ -13,4 +13,3 @@ console.log(typeof boolean4);
 
 //Este tipo de estructura por lo general no crear estructuras
 //crea objetos
-
