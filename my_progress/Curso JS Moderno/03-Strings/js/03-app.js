@@ -1,8 +1,9 @@
-const producto = 'Monitor 20 Pulgadas';
+const producto = 'Monitor 20 Pulgadas ';
 const precio = '30 USD ';
 
 console.log(producto.concat(precio));       //CONCATENACION CON METHODS
 console.log(producto.concat('En descuento'));       //OTRA FORMA DE CONCATENAR
+//console.log(precio.concat(producto));
 
 console.log(producto + ' Con precio de: ' + precio);        //OTRA FORMA DE CONCATENAR
 

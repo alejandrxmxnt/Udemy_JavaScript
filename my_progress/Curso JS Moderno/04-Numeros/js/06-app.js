@@ -13,10 +13,10 @@ console.log(Number.parseInt(numero1));      //El parseInt lo que hace es convert
 //Si el valor tiene decimales se usa el parseFloat
 
 console.log(typeof Number.parseFloat(numero2));
-console.log(Number.parseFloat(numero2));
+console.log(Number.parseFloat(numero2));  //de string a numero decimal
 
 //Si hacemos el numero3 este me dara como resultado NaN
 
 //Revisar si el numero es entero
-console.log(Number.isInteger(numero4));     //esto me indicara true por que 20 es un valor entero
+console.log(Number.isInteger(numero4));     //esto me indicara true por que 20 es un valor entero y es numero
 //SON FUNCIONES QUE TE VAN A PERMITIR VER SI SON NUMEROS PARA CONVERTIR

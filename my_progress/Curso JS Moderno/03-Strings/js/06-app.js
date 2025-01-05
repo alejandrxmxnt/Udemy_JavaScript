@@ -20,5 +20,7 @@ console.log(`${producto} ${texto} !!!`);
 const actividad = 'Estoy aprendiendo JavaScript Moderno';
 console.log(actividad.split(" "));
 
+//console.log(typeof(actividad.split(" ")));
+
 const hobbies = 'Leer, Caminar, Escuchar musica, Escribir, aprender a programar';
 console.log(hobbies.split(", "));
