@@ -8,15 +8,19 @@ const carrito = [
 
 ];
 
-const nuevoArreglo2 = carrito.forEach(function(producto) {
-    //La iteacion se hara sobre producto ya no carrito
-    return `Producto: ${producto.nombre} - Precio: ${producto.precio}`;
-});
+
 console.log("-------------------------------------");
 const nuevoArreglo = carrito.map(function(producto) {
     //La iteacion se hara sobre producto ya no carrito
     return `Producto: ${producto.nombre} - Precio: ${producto.precio}`;
 });
 
+const nuevoArreglo2 = carrito.forEach(function(producto) {
+    //La iteacion se hara sobre producto ya no carrito
+    return `Producto: ${producto.nombre} - Precio: ${producto.precio}`;
+});
+
+console.log("----------------MAP---------------------");
 console.log(nuevoArreglo);
+console.log("-----------------FOREACH--------------------");
 console.log(nuevoArreglo2);//este no tendra nada "undefined"
