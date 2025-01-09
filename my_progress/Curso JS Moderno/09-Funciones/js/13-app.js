@@ -9,7 +9,7 @@ const reproductor = {
 
     //EL this. sirve para buscar dentro del objeto
     set nuevaCancion(cancion){ //SET es una forma para agregar valores
-        this.cancion = cancion;
+    this.cancion = cancion;
         console.log(`Añadiendo ${cancion}`);
     },
     get obtenerCacion() {//Es una forma de obtener esos valores
