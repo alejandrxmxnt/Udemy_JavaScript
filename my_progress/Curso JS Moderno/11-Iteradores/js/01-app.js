@@ -28,3 +28,9 @@ for (let i = 0 ; i < carrito.length ; i++) {
     console.log(carrito[i]);
 }
 
+//  IMPRESION DE LOS PRODUCTOS DE CARRITO ARRIBA DEL PRECIO DE 400
+for (let i = 0 ; i < carrito.length ; i++){
+    if(carrito[i].precio >= 400 ) {
+        console.log(carrito[i].nombre);
+    }
+}
