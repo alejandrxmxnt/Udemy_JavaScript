@@ -24,3 +24,10 @@ console.log(resultado);
 const resultado2 = { ...producto, ...medias, ...info }
 console.log(resultado2);
 
+
+/**
+ * Unir dos o varios objetos
+ * creando una nuevo objeto en este caso resultado
+ * tenemos 2 formas de crear este objeto uniendo varios es uno usando el .assign y el otro mediante el rest operator
+ * 
+ */

@@ -20,7 +20,7 @@
 // Uno que es muy común y utilizaras en todos tus proyectos es uno llamado DOMContentLoaded
 
 console.log(1)
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => { /**Este DOMContentLoaded es un evento que ese ejecuta cuando todo el documento HTML es descargado */
         console.log(2);
     }) // Nota todos los eventos que hay disponibles
 console.log(3);

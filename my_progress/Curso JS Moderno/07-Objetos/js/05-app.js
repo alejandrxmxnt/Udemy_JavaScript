@@ -38,3 +38,24 @@ console.log(persona.more.foot.calzado);
 
 //console.log(producto.informacion.medida);
 
+
+
+const vehiculo = {
+    nombre: "For raptor",
+    precio: 15000,
+    disponible: true,
+    informacion : {
+        color: "Azul",
+        gama: "media/alta",
+        anio: 2026
+    },
+    componentes: {
+        rueda:{
+            oficial: 16.5,
+            repuesto:16.0
+        },
+        bodykit: false
+    }
+}
+
+console.log(vehiculo)

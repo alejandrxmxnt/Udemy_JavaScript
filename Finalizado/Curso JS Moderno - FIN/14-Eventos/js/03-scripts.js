@@ -37,10 +37,10 @@ const busqueda = document.querySelector('.busqueda');
 
 busqueda.addEventListener('input',  leerInput);
 
-function leerInput(e) {
+function leerInput(e) { //la e hace referencia al evento que esta sucediendo en ese mismo instante
     console.log(e); // Mucha información...
     console.log( e.type ); // Te dira sobre que elemento estamos trabajando...
-    console.log(e.target); // el input completo...
-    console.log(e.target.value) // lo que el usuario escribe...
+    console.log(e.target); // el input completo...//te muestra la etiqueta en la que se escribe
+    console.log(e.target.value) // lo que el usuario escribe... //en tiempo real
 
 }

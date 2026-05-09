@@ -16,3 +16,11 @@ console.log(producto);
 
 console.log(Object.isSealed(producto));
 
+
+
+/**
+ * Seal sella el objeto lo que hace que nada entre nada se elimine y nada se modifique es mas estricto
+ * 
+ * Tambien podemos saber si este objeto esta sellado con el siguiente metodo
+ * console.log(Object.isSeal(producto)))            cabe mencionar que producto es la variable que estemos controlando
+ */
