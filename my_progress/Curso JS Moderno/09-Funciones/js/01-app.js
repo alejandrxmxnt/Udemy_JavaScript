@@ -28,3 +28,8 @@ const sumar2 = function () {
 //LLAMAR FUNCIÓN
 sumar2();
 
+
+/**
+ * Las funciones nos permite tener el codigo mas claro y ordenado
+ * y claro son reutilizables
+ */
